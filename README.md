@@ -24,8 +24,7 @@ The k shortest paths problem aims to find the k shortest paths between two nodes
 | Omega         | Dictionary, Omega[n] contains all ripples generated at node n |
 
 #### Example
-
-![k-SPP_example](C:\Users\dell\Desktop\研究生\个人算法主页\The ripple-spreading algorithm for the k shortest paths problem\k-SPP_example.png)
+![](https://github.com/Xavier-MaYiMing/The-ripple-spreading-algorithm-for-the-k-shortest-paths-problem/blob/main/k-SPP_example.png)
 
 The source node is node 0, and the destination node is node 5. The aim is to find the four shortest paths.
 
