@@ -21,7 +21,7 @@ The k shortest paths problem aims to find the k shortest paths between two nodes
 | radius_set    | List, the radius of the i-th ripple is radius_set[i]         |
 | active_set    | List, active_set contains all active ripples                 |
 | objective_set | List, the objective value of the traveling path of the i-th ripple is objective_set[i] |
-| Omega         | Dictionary, Omega[n] contains all ripples generated at node n |
+| omega         | Dictionary, omega[n] contains all ripples generated at node n |
 
 #### Example
 ![](https://github.com/Xavier-MaYiMing/The-ripple-spreading-algorithm-for-the-k-shortest-paths-problem/blob/main/k-SPP_example.png)
