@@ -92,7 +92,7 @@ def main(network, source, destination, k):
             radius = radius_set[ripple]
             length = length_set[ripple]
             for node in neighbor[epicenter]:
-                if len(omega[node]) < k:  # the node is visited no more than k times
+                if len(omega[node]) < k and node not in path:  # the node is visited no more than k times
                     temp_length = network[epicenter][node]
                     if temp_length <= radius < temp_length + v:
                         temp_path = copy.deepcopy(path)
