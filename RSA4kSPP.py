@@ -38,7 +38,7 @@ def find_speed(network, neighbor):
 
 def main(network, source, destination, k):
     """
-    The ripple-spreading algorithm for the shortest path problem
+    The ripple-spreading algorithm for the k shortest path problem
     :param network: {node1: {node2: length, node3: length, ...}, ...}
     :param source: the source node
     :param destination: the destination node
